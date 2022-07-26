@@ -1,0 +1,332 @@
+@font-face{
+	font-family: hello_honey;
+	src: url("../polices/hello_honey.otf") format("truetype");
+}
+
+@font-face{
+	font-family:Metropolis;
+	src: url("../polices/Metropolis.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:cadeau;
+	src: url("../polices/cadeau.ttf") format("truetype");
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* STYLISER LE HEADER */
+
+header{
+	width: 100%;
+	height: 630px;
+	background-image: url("../images/fleurs_impressionnistes2.jpg");
+	background-position:center;
+	background-size: 900px 550px;
+	background-repeat: no-repeat;
+	border-bottom:1px solid #f38ba2 ;
+
+
+
+}
+
+
+.nom_maries{
+	width: 1000px;
+	height: 300px;
+	border: 1px solid url("../images/fleurs_impressionnistes2.jpg");
+	display: block;
+	justify-content: center;
+	margin-left: 12%;
+	text-align: center;
+	background-image: url("../images/fleurs_impressionnistes2.jpg");
+	background-size:cover;
+	background-size: cover;
+}
+.nom_maries h1{
+	font-family:cadeau;
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: pink;
+	font-weight: lighter;
+}
+.nom_maries p{
+	font-family: hello_honey;
+	font-size: 75px;
+}
+.nom_maries .et_relation{
+	color: #f38ba2;
+}
+
+.photo_couple{
+	width: 300px;
+	height: 300px;
+	margin-left: 38%;
+}
+
+.photo_couple img{
+	width: 100%;
+	height: 100%;
+}
+.nom_maries .invitation{
+	margin-left: 48%;
+	width: 100px;
+	font-size: 30px;
+	border-bottom: 1px solid #f38ba2;
+}
+header nav ul li {
+	display: inline-block;
+	position: relative;
+	top: 230px;
+	left: 19.5%;
+	padding: 15px;
+}
+header nav ul li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	background-color:#f38ba2;
+	font-size: 18px;
+	border-radius: 7px;
+}
+
+
+header nav ul li a:hover{
+	color:#fff;
+	background-color: #f73d81;
+}
+
+
+
+.les_maries{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	padding: 50px 20px;
+}
+
+/*-------------------------------------------*/
+
+
+main section{
+	margin-left: 5%;
+	padding-bottom: 150px;
+}
+#programme{
+	margin-top: 20px;
+	width: 1000px;
+	height: 350px;
+	/*border:1px solid #000;*/
+	background: url("../images/_bg.jpg") no-repeat right;
+	background-size:100%;
+	margin-left: 14%;
+	border-radius: 10px;
+	box-shadow:3px 1px 18px 1px #5b8964;
+	
+
+
+}
+.programme_style{
+	width: 500px;
+	height: 300px;
+	padding: 0px 20px;
+	margin-left: 10%;
+	font-weight: bold;
+	font-size: 20px;
+	color: #5b8964;
+}
+#programme h2{
+	height: 100px;
+	text-align: center;
+	background-image:url("../images/549.jpg");
+	background-size: 600px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family:Metropolis;
+	color: #5b8964;
+}
+main section h2{
+	text-align: center;
+}
+
+.texte_programme{
+	padding-bottom: 20px;
+}
+#hotels_proches{
+	margin-top: 20px;
+	width: 1000px;
+	height: 350px;
+	background: url("../images/_bg.jpg") no-repeat right;
+	background-size:100%;
+	margin-left: 14%;
+	border-radius: 10px;
+	box-shadow:3px 1px 18px 1px #5b8964;
+	color: #5b8964;
+
+}
+#hotels_proches h2{
+	margin-top: 100px;
+	height: 100px;
+	text-align: center;
+	background-image:url("../images/549.jpg");
+	background-size: 600px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family:Metropolis;
+}
+#choix_menu{
+	margin-top: 20px;
+	width: 1000px;
+	height: 517px;
+	background: url("../images/_bg.jpg") no-repeat right;
+	background-size:100%;
+	margin-left: 14%;
+	border-radius: 10px;
+	box-shadow:3px 1px 18px 1px #5b8964;
+	font-size: 18px;
+	color: #5b8964;
+
+}
+#choix_menu h2{
+	margin-top: 100px;
+	height: 100px;
+	text-align: center;
+	background-image:url("../images/549.jpg");
+	background-size: 600px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family:Metropolis;
+}
+#choix_menu input{
+	padding: 10px;
+	margin: 0px 0px 15px 30px;
+	color: #5b8964;
+	border-radius: 5px;
+	border: none;
+
+}
+#choix_menu p{
+	padding: 20px;
+	margin: 0px 0px 15px 30px;
+
+}
+#choix_menu input.largeur{
+	width: 300px;
+}
+#choix_menu input.confirmation{
+	color: #fff;
+	background-color: #5b8964;
+	margin: 2px 0px 15px 30px;
+
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	width: 200px;
+
+
+}
+#choix_menu input.confirmation:hover{
+	background-color: #f38ba2;
+}
+#choix_menu input.yes_margin{
+	margin:0px;
+	padding:10px;
+
+}
+.espace{
+	margin-left: 40px;
+}
+
+
+.commentaires{
+	margin-top: 20px;
+	width: 1000px;
+	height: 415px;
+	background: url("../images/_bg.jpg") no-repeat right;
+	background-size:100%;
+	margin-left: 14%;
+	border-radius: 10px;
+	box-shadow:3px 1px 18px 1px #5b8964;
+	padding: 20px;
+
+	
+}
+section.commentaires{
+	margin-top: 100px;
+}
+section.commentaires h2{
+	height: 100px;
+	text-align: center;
+	background-image:url("../images/549.jpg");
+	background-size: 600px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family:Metropolis;
+	color: #5b8964;
+
+}
+section .comments input{
+	padding: 10px;
+	width: 400px;
+	margin: 15px 0px;
+	border-radius: 5px;
+	border: none;
+
+
+}
+
+section .comments form textarea{
+	height: 100px;
+	width: 400px;
+	border: none;
+	border-radius: 10px;
+}
+.com_envoie_accueil{
+	color: #fff;
+	background-color: #5b8964;
+	margin: 15px 0px;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	width: 100px;
+
+}
+button.com_envoie_accueil:hover{
+	background-color: #f38ba2;
+
+}
+aside img{
+	background-color:#f38ba2;
+	width: 30px;
+	border-radius: 50%;
+}
+
+
+aside a{
+	float: right;
+	text-decoration: none;
+	color: #5b8964;
+	font-size: 40px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+footer{
+	width: 100%;
+	background-color: #f38ba2;
+	margin-top: 100px;
+
+}
+footer p{
+	text-align: center;
+	color: white;
+}
+
+
+/*LES MEDIAS QUERIES */
+
+

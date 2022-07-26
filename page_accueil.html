@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mariage Sébastien et Sarah</title>
+	<link rel="stylesheet" type="text/css" href="css/accueil_style.css">
+</head>
+<body>
+	<header>
+
+		<div class="nom_maries">
+			<h1>Mariage</h1> 
+			<p>Sébastien <span class="et_relation">& </span> Sarah</p>
+			<br>
+
+			<div class="photo_couple">
+			<img src="images/couple.jpg">
+			</div>
+			<p class="invitation"> 17/09/2022</p>
+
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="page_accueil.html">Accueil </a></li>
+				<li><a href="#programme">Programme </a></li>
+				<li><a href="#choix_menu">Réserver sa place</a></li>
+				<li><a href="page_cadeaux.html">Les cadeaux</a></li>
+				<li><a href="page_maries.html" class="les_maries">Les mariés </a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+
+	<main>
+		<div>
+
+		</div>
+		<section id="programme">
+			<h2>PROGRAMME DU D-DAY</h2>
+			<div class="programme_style">
+			<p>L'amour est une bien curieuse aventure ! Il suffit d'un jour, un regard, et voilà, on saute le grand pas !
+			<br>
+			Notre union sera célébré sous le programme suivant : 
+			</p>
+			<br>
+
+			<p class="texte_programme"> &#128536; 15h00 - Cérémonie civile à la Mairie de Rouen</p>
+			<p class="texte_programme">&#127865; 17h00 - Cocktail en extérieur </p>
+			<p class="texte_programme"> &#128523; 20h00 - Repas assis en salle Casino de Dieppe (76200) </p>
+			<p class="texte_programme"> &#127926; 23h00 - Soirée </p>
+			<p class="texte_programme"> &#127856;  00h00 - Le Gâteau</p>
+			<p class="texte_programme"> &#127857; Le lendemain à 14 - Brunch à la maison familiale </p>
+			</div>
+		</section>
+
+		<section id="hotels_proches">
+			<h2>HÔTELS PROCHES</h2>
+			<div class="adresse_hotels">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d164485.41411050144!2d0.7718145541372465!3d49.89721509263239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%C3%B4tels%20proches%20de%20casino%20diepe%20!5e0!3m2!1sen!2sfr!4v1642860495034!5m2!1sen!2sfr" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</section>
+
+		<section id="choix_menu">
+			<h2>RESERVATION DE PLACE ET CHOIX DU MENU</h2>
+			<div class="menu_reservation">
+				<form>
+					<p>Nous serions heureux de vous avoir à nos côtés pour partager ce gand moment. &#128158;<br>Veuillez confirmer votre présence :)</p>
+					<br>
+    				<input type="text" id="fname" name="firstname" placeholder="Votre prénom" class="largeur" required="required">
+
+   					<input type="text" id="lname" name="lastname" placeholder="Votre nom" class="largeur" required="required">
+   					<br>
+   					<input type="email" id="email" name="email" placeholder="Votre adresse email" class="largeur" required="required">
+   					<br>
+   					<p>Avez-vous un accompagnant ?</p>
+
+   					<label for="oui" class="espace">Oui</label>
+  					<input type="radio" id="Oui" name="oui_non" value="oui" class="yes_margin">
+  					<label for="non">Non</label>
+  					
+  					<input type="radio" id="non" name="oui_non" value="non" class="yes_margin">
+  					<br>
+  					
+  					<br>
+
+   					<input type="text" name="" placeholder=" Si oui : Ajouter le nom de l'accompagnant" class="largeur">
+
+					<p>Merci de nous préciser votre choix de menu<sup style="color:red">*</sup></p>
+					<input type="checkbox" id="volaille" name="volaille" value="menu">
+  					<label for="vehicle1"> Bollatine de volaille</label>
+  					<input type="checkbox" id="vegetarien" name="vegetarien" value="menu">
+  					<label for="vehicle2">Végétarien</label><br>
+  					<input type="submit" class="confirmation" value="Confirmer et envoyer">
+  				</form>
+			</div>
+		</section>
+	
+		<section class="commentaires">
+			<h2>Veuillez nous laisser un commentaire ici </h2>
+			<div class="comments">
+				<form>
+    				<input type="text" id="com_nom_complet" name="com_nom_complet" placeholder="Nom et prénom" required="required">
+    				<br>
+
+   					<input type="email" id="com_email" name="email" placeholder="Votre adresse email" required="required">
+   					<br>
+   					<textarea rows="5" cols="30" required="required">
+   						
+   					</textarea>
+   					<br>
+  					<button class="com_envoie_accueil" required="required"> Envoyer</button>
+				</form>
+			</div>
+		</section>
+		<aside class="page_maries">
+			<a href="#programme"><img src="images/up.png"> </a>
+			
+		</aside>
+	</main>
+
+
+</body>
+<footer>
+	<p>Copyright © 2022 Joe Botseke - Andromeda</p>
+</footer>
+</html>
